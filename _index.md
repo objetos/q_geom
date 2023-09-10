@@ -10,7 +10,7 @@ Geometry transformations are changes done in a quadrille shape by [rotation]({{<
 
 {{< hint info >}}
 **Observation**\
-The methods of this section may be [chained](https://en.wikipedia.org/wiki/Method_chaining), e.g., `quadrille.rotate().reflect().transpose()` which is equivalent to:
+The methods found in this section may be [chained](https://en.wikipedia.org/wiki/Method_chaining), e.g., `quadrille.rotate().reflect().transpose()` which is equivalent to:
 ```js
 quadrille.rotate();
 quadrille.reflect();
