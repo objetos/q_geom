@@ -17,7 +17,7 @@ let quadrille;
 function setup() {
   createCanvas(4 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
   quadrille = createQuadrille(4, 4, 3, '🚀');
-  quadrille.rand(7, '🐒');
+  quadrille.rand(4, '🐒');
 }
 
 function draw() {
@@ -41,7 +41,7 @@ let quadrille;
 function setup() {
   createCanvas(4 * Quadrille.CELL_LENGTH, 4 * Quadrille.CELL_LENGTH);
   quadrille = createQuadrille(4, 4, 3, '🚀');
-  quadrille.rand(7, '🐒');
+  quadrille.rand(4, '🐒');
 }
 
 function draw() {
