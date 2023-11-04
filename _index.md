@@ -4,16 +4,17 @@ weight: 7
 draft: false
 ---
 
-# Geometry transformations
+# Transforms
 
-Geometry transformations are changes done in a quadrille shape by [rotation]({{< relref "rotate" >}}), [reflection]({{< relref "reflect" >}}) and [transposition]({{< relref "transpose" >}}) of its cells.
+Transform methods enable the alteration of a quadrille's geometry through operations such as [rotation]({{< relref "rotate" >}}), [reflection]({{< relref "reflect" >}}), and [transposition]({{< relref "transpose" >}}), altering the spatial arrangement of cells.
 
 {{< hint info >}}
-**Observation**\
-The methods found in this section may be [chained](https://en.wikipedia.org/wiki/Method_chaining), e.g., `quadrille.rotate().reflect().transpose()` which is equivalent to:
+**Note:**\
+Transformation methods support [method chaining](https://en.wikipedia.org/wiki/Method_chaining), allowing for a streamlined sequence of modifications. For example, chaining `quadrille.rotate().reflect().transpose()` applies a series of transformations succinctly, which is functionally equivalent to:
 ```js
 quadrille.rotate();
 quadrille.reflect();
 quadrille.transpose();
 ```
+This approach enhances readability and efficiency in code.
 {{< /hint >}}
