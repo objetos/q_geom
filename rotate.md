@@ -5,7 +5,7 @@
 # Example
 
 (mouse click or press any key to `rotate` the quadrille)  
-{{< p5-global-iframe lib1="https://cdn.jsdelivr.net/gh/objetos/p5.quadrille.js/p5.quadrille.js" width="425" height="425" >}}
+{{< p5-global-iframe quadrille="true" width="425" height="425" >}}
 `use strict`;
 let quadrille;
 
