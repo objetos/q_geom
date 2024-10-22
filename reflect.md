@@ -1,9 +1,8 @@
 ---
-weight: 6
+weight: 1
 draft: false
+title: reflect()
 ---
-
-# `reflect()`
 
 Horizontal reflection of the quadrille cells.
 

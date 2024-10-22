@@ -1,4 +1,8 @@
-# `transpose()`
+---
+weight: 3
+draft: false
+title: transpose()
+---
 
 [Transposes](https://en.wikipedia.org/wiki/Transpose) the quadrille cells.
 

@@ -1,4 +1,8 @@
-# `rotate()`
+---
+weight: 2
+draft: false
+title: rotate()
+---
 
 π/2 clockwise rotation of the quadrille cells.
 
