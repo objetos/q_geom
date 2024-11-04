@@ -6,7 +6,7 @@ title: rotate()
 
 π/2 clockwise rotation of the quadrille cells.
 
-# Example
+## Example
 
 (mouse click or press any key to `rotate` the quadrille)  
 {{< p5-global-iframe quadrille="true" width="425" height="425" >}}
@@ -58,6 +58,6 @@ function keyPressed() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `rotate()`

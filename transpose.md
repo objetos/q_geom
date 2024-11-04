@@ -6,7 +6,7 @@ title: transpose()
 
 [Transposes](https://en.wikipedia.org/wiki/Transpose) the quadrille cells.
 
-# Example
+## Example
 
 (mouse click or press any key to `transpose` the quadrille)  
 {{< p5-global-iframe quadrille="true" width="425" height="425" >}}
@@ -58,6 +58,6 @@ function keyPressed() {
 ```
 {{< /details >}}
 
-# Syntax
+## Syntax
 
 > `transpose()`
