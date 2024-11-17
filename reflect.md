@@ -10,7 +10,7 @@ Horizontal reflection of the quadrille cells.
 
 (mouse click or press any key to `reflect` the quadrille)  
 {{< p5-global-iframe quadrille="true" width="425" height="425" >}}
-`use strict`;
+'use strict';
 let quadrille;
 
 function setup() {
