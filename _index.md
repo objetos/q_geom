@@ -8,7 +8,6 @@ title: Transforms
 **Transform methods** modify the geometry of a `quadrille` by altering the spatial arrangement of its cells. Operations such as [rotation]({{< relref "rotate" >}}), [reflection]({{< relref "reflect" >}}), and [transposition]({{< relref "transpose" >}}) enable precise and dynamic transformations of the quadrille’s structure.  
 
 {{< callout type="info" >}}  
-**Note:**  
 Transformation methods support [method chaining](https://en.wikipedia.org/wiki/Method_chaining), allowing multiple modifications to be applied sequentially in a single statement. For example:  
 ```js  
 quadrille.rotate().reflect().transpose();  

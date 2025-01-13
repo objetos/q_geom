@@ -58,6 +58,10 @@ function keyPressed() {
 ```
 {{< /details >}}
 
+{{< callout type="info" >}}  
+`transpose()` is useful for performing column transformations using row commands. For instance, `q.transpose().row(col).transpose()` clones column `col`.  
+{{< /callout >}}
+
 ## Syntax
 
 > `transpose()`
