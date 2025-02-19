@@ -33,7 +33,7 @@ function keyPressed() {
 }
 {{< /p5-global-iframe >}}
 
-{{< details title="code" open=false >}}
+{{% details title="code" open=true %}}
 ```js
 let quadrille;
 
@@ -56,7 +56,7 @@ function keyPressed() {
   quadrille.transpose();
 }
 ```
-{{< /details >}}
+{{% /details %}}
 
 {{< callout type="info" >}}  
 `transpose()` is useful for performing column transformations using row commands. For instance, `q.transpose().row(col).transpose()` clones column `col`.  
